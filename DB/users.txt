@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "username": "shmuel",
+    "password": "third post"
+  },
+  {
+    "id": 2,
+    "username": "yeuda",
+    "password": "third post"
+  },
+  {
+    "username": "test",
+    "password": "$2b$10$9ccl3C2erRiZeZyJWRLvXeMY/JvNYCNFzihddTIlW4XdNdbDYzR5u",
+    "id": 3
+  },
+  {
+    "username": "test",
+    "password": "$2b$10$.kX3roqj1/D0QS1SpHH9kenckSBpZmTl5Lb7uHEUpQyj9QoaRoAbm",
+    "id": 4
+  },
+  {
+    "username": "test",
+    "password": "$2b$10$iRjzU2DJ4hQyyIZPvAxiIurR9RTwwHb0bpX18wHjYiQ.Ixui0WcEq",
+    "id": 5
+  }
+]

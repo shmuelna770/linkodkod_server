@@ -1,6 +1,5 @@
 import * as postDAL from '../DAL/postDAL.js';
 
-// get all the riddles
 export async function getAllPostes(req, res) {
     try {
         const postes = await postDAL.getAllPostesD();
