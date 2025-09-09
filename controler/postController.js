@@ -27,8 +27,23 @@ export async function addPost(req, res) {
     }
 }
 
-// export async function getPostById(req,res){
-//     try{
-        
-//     }
-// }
+
+export async function getPostById(req, res) {
+    try {
+        const { id } = req.params;
+        const post = await postDAL.getPostById(Number(id));
+
+        if (!post) {
+            return res.status(404).json({
+                success: false,
+                message: ` post with id ${id} not found `
+            });
+        }
+        res.status(200).json({ success: true, post });
+    } catch (err) {
+        res.status(500).json({
+            success: false,
+            message: err.message
+        });
+    }
+}

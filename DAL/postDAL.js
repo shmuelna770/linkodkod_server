@@ -15,17 +15,19 @@ export async function addPostD(newPost) {
     await fs.writeFile(FILE_PATH, JSON.stringify(postes, null, 2));
 }
 
-// export async function getPostById(Id) {    
-//    const data = await fs.readFile(FILE_PATH, 'utf-8');
-//     const respon =  JSON.parse(data);
-//     const foundObject = respon.find(item => item.id === Id);
-//    console.log('found',foundObject);
-   
-//     if (foundObject) {
-//         console.log("found object:", foundObject);
-//         return JSON.parse(foundObject);
-//     } else {
-//         console.log("object with id:", Id, "not found.");
-    
-//     }
-// }
+
+
+
+export async function getPostById(Id) {    
+    const data = await fs.readFile(FILE_PATH, 'utf-8');
+    const respon = JSON.parse(data);
+
+    const foundObject = respon.find(item => item.id === Number(Id));
+
+    if (foundObject) {
+        return foundObject; 
+    } else {
+        return null;
+    }
+}
+
