@@ -23,5 +23,20 @@
     "username": "test",
     "password": "$2b$10$iRjzU2DJ4hQyyIZPvAxiIurR9RTwwHb0bpX18wHjYiQ.Ixui0WcEq",
     "id": 5
+  },
+  {
+    "username": "shmuel",
+    "password": "$2b$10$9HRMNc075zvsZNIjtpTWceEsFIrDfQZlZx7elZVRx7KWTB3wNpNeO",
+    "id": 6
+  },
+  {
+    "username": "shmuelT",
+    "password": "$2b$10$gnZc3S3efQn4p8ai0yjn7ube7lM7j27ieTHuvEZ8kR/ONanuTUDky",
+    "id": 7
+  },
+  {
+    "username": "shmuelT2",
+    "password": "$2b$10$CBR4BntOqyqjdy.raJyQ0.VfCcSzLDzg/JI/yBt0Urw2Ff5jftOjK",
+    "id": 8
   }
 ]

@@ -13,6 +13,7 @@ export async function addPostD(newPost) {
     newPost.id = postes.length ? postes[postes.length - 1].id + 1 : 1;
     postes.push(newPost)
     await fs.writeFile(FILE_PATH, JSON.stringify(postes, null, 2));
+    return newPost.Id
 }
 
 

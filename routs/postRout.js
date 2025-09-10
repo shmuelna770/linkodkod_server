@@ -5,5 +5,5 @@ import { addPost, getAllPostes ,getPostById} from '../controler/postController.j
 export const postRout = express.Router();
 
 postRout.get('/postes',getAllPostes);
-postRout.get('/:id',getPostById)
 postRout.post('/add',addPost)
+postRout.get('/single/:id',getPostById)
